@@ -1,6 +1,7 @@
 export interface Ifilm{
    id: number;
    title: string;
+   year:number;
    released:string;
    runtime:string;
    genre:string[];

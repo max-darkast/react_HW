@@ -1,0 +1,1 @@
+export {BigCardFilm} from "./BigCardFilm"
