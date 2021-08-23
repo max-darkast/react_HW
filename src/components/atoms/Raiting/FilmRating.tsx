@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./index.css";
 interface IRating {
   imdbRating: number;
   imdbVotes: number;
@@ -7,14 +7,14 @@ interface IRating {
 
 export const FilmRating = ({ imdbRating, imdbVotes }: IRating) => {
   return (
-    <div>
-      <ul>
+    <div className="film_card_ratings">
+      <ul className="film_card_rating">
         <li>Rating</li>
         <li>{imdbRating}</li>
       </ul>
-      <ul>
+      <ul className="film_card_votes">
         <li>{imdbVotes}</li>
-        <li></li>
+        <li>Voted</li>
       </ul>
     </div>
   );

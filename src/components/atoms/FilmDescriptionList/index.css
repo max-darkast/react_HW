@@ -1,0 +1,23 @@
+.filmDescriptionListWrapper {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-template-columns: auto auto;
+  grid-template-columns: auto 1fr;
+  grid-gap: 15px;
+}
+
+.filmDescriptionListWrapper :nth-child(odd) {
+  font-family: "Alata", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #979797;
+}
+.filmDescriptionListWrapper :nth-child(even) {
+  font-family: "Alata", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #3a236a;
+}

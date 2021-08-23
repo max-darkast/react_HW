@@ -1,9 +1,6 @@
 import React from "react";
 import "./App.css";
-import { FilmDescriptionList } from "./components/atoms/FilmDescriptionList/FilmDescriptionList";
-import { Poster } from "./components/atoms/Poster/Poster";
-import { FilmRating } from "./components/atoms/Raiting/FilmRating";
-
+import { Header } from "./components/atoms/Header";
 import { BigCardFilm } from "./components/molecules/bigCardFilm";
 import { films } from "./mock/index";
 
@@ -13,13 +10,14 @@ function App() {
   return (
     <div className="App">
       <div className="wrapper">
-        <BigCardFilm {...selectFilm} />
-        <Poster poster={selectFilm.poster} />
-        <FilmDescriptionList {...selectFilm} />
-        <FilmRating
-          imdbRating={selectFilm.imdbRating}
-          imdbVotes={selectFilm.imdbVotes}
-        />
+        <div className="nav">nav </div>
+        <Header title="Movie" />
+        <div className="main">
+          <BigCardFilm film={selectFilm} />
+          <div className="allFilms">allFilms</div>
+          <div className="rating__star">rating__star</div>
+          <div className="filters">filters</div>
+        </div>
       </div>
     </div>
   );
