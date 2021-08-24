@@ -17,3 +17,7 @@ export interface Ifilm{
    boxOffice: string;
    production: string;
 }
+export interface ITrailer{
+   trailer:string;
+   description:string;
+}

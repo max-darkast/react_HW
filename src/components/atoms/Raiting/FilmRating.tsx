@@ -13,8 +13,8 @@ export const FilmRating = ({ imdbRating, imdbVotes }: IRating) => {
         <li>{imdbRating}</li>
       </ul>
       <ul className="film_card_votes">
-        <li>{imdbVotes}</li>
         <li>Voted</li>
+        <li>{imdbVotes}</li>
       </ul>
     </div>
   );

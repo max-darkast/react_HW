@@ -5,5 +5,5 @@
   line-height: 0;
 }
 .poster > img {
-  height: 341px;
+  max-height: 341px;
 }

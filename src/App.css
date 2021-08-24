@@ -31,13 +31,6 @@
   grid-row-end: 3;
 }
 .main {
-  padding: 29px;
-  margin-bottom: 50px;
-  max-width: 798px;
-  background: #fdfdff;
-  border: 1px solid #ebebeb;
-  box-sizing: border-box;
-  border-radius: 13px;
   grid-column-start: 2;
 }
 li {
