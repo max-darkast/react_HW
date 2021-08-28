@@ -1,0 +1,40 @@
+.filtersFields {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 20px;
+}
+.filterByYear,
+.filterByRating {
+  display: grid;
+  grid-template-columns: 45px auto 30px auto;
+}
+.filtersFields > label > input[type="text"],
+.filtersFields > label > select {
+  width: 150px;
+  height: 32px;
+  background: #fdfdff;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+}
+.filtersFields > label > input[type="number"] {
+  width: 83px;
+  height: 32px;
+  background: #fdfdff;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+}
+.filtersFields > label > p {
+  font-family: Alata;
+  font-size: 16px;
+  line-height: 22px;
+  color: #7f7fd5;
+}
+h5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  margin-bottom: 5px;
+  font-family: Alata;
+  font-size: 18px;
+  line-height: 25px;
+  color: #979797;
+}
