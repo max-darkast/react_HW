@@ -1,0 +1,38 @@
+.smallCardFilm {
+  width: 341px;
+  background: #fdfdff;
+  border: 1px solid #ebebeb;
+  border-radius: 13px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+.smallCardFilm > img {
+  height: 199px;
+  align-self: center;
+}
+.smallCardFilm > h4 {
+  height: 55px;
+  font-family: Alata;
+  font-size: 20px;
+  line-height: 28px;
+  color: #4f4f4f;
+}
+.smallCardFilm > .year {
+  font-family: Alata;
+  font-size: 20px;
+  line-height: 28px;
+  color: #7f7fd5;
+}
+.smallCardFilm > .plot {
+  font-family: Alata;
+  font-size: 20px;
+  line-height: 28px;
+  color: #979797;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

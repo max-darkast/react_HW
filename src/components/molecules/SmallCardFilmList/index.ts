@@ -1,0 +1,1 @@
+export {SmallCardFilmList} from "./SmallCardFilmList"

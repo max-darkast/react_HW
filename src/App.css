@@ -12,3 +12,33 @@
 .App {
   background: #f0f0fc;
 }
+.wrapper {
+  margin: 0 auto;
+  padding: 0 10px 0 0;
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: 98px auto;
+}
+.header {
+}
+.nav {
+  width: 98px;
+  background: #fdfdff;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  margin-right: 50px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.main {
+  grid-column-start: 2;
+}
+li {
+  list-style-type: none;
+}
+.allFilms {
+}
+.rating__star {
+}
+.filters {
+}

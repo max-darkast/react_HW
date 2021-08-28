@@ -1,0 +1,45 @@
+.film_card_ratings {
+  display: flex;
+  gap: 11px;
+}
+.film_card_votes {
+  display: flex;
+  gap: 5px;
+}
+
+.film_card_rating :nth-child(1) {
+  height: 20px;
+  background: #7f7fd5;
+  border: 1px solid #7f7fd5;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: "Alata", sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+.film_card_rating :nth-child(2) {
+  height: 89px;
+  font-family: "Alata", sans-serif;
+  font-size: 60px;
+  line-height: 83px;
+  display: flex;
+  align-items: center;
+  color: #7f7fd5;
+}
+
+.film_card_votes {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  font-family: "Alata", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #3a236a;
+}

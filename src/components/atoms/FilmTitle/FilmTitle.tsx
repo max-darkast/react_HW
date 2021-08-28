@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import "./filmTitle.css";
 interface ITitle {
   title: string;
 }

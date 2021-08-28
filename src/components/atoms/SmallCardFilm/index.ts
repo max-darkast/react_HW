@@ -1,0 +1,1 @@
+   export { SmallCardFilm } from "./SmallCardFilm";
